@@ -320,6 +320,11 @@ video {
 		border-bottom-left-radius: 23rem;
   }
 
+  .key-points__content {
+	padding-block: 8rem;
+	padding-inline: 1rem;
+}
+
 
 
 

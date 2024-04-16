@@ -22,7 +22,7 @@ navbarBtn.addEventListener("click", () => {
 })
 
 
-//animating text using ScrollReveal JS library
+//animating content using ScrollReveal JS library
 const scrollRevealOption = {
 	distance: "50px",
 	origin: "bottom",
@@ -40,4 +40,10 @@ ScrollReveal().reveal(".header__content .header__btn", {
 	...scrollRevealOption,
 	delay: 1000,
 });
+
+ScrollReveal().reveal(".key-points__card", {
+	...scrollRevealOption,
+	delay: 500,
+});
+
 //.................
