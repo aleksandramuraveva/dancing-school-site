@@ -21,6 +21,8 @@ navbarBtn.addEventListener("click", () => {
 	//ri-close-line
 })
 
+
+//animating text using ScrollReveal JS library
 const scrollRevealOption = {
 	distance: "50px",
 	origin: "bottom",
@@ -38,3 +40,4 @@ ScrollReveal().reveal(".header__content .header__btn", {
 	...scrollRevealOption,
 	delay: 1000,
 });
+//.................
