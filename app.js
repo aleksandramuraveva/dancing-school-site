@@ -59,3 +59,17 @@ ScrollReveal().reveal(".lessons__btn", {
 	delay: 1000,
 });
 //.................
+
+
+//Swiper js for reviews
+
+const swiper = new Swiper(".swiper", {
+	loop: true,
+	speed: 1000,
+
+	// Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});

@@ -307,6 +307,57 @@ video {
 }
 
 
+/*.....Review styling....*/
+
+.review__wrapper {
+	max-width: 1100px;
+	margin-inline: auto;
+	padding: 5rem 1rem;
+	text-align: center;
+}
+
+.swiper {
+	margin-top: 2rem;
+	width: 100%;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+	color: white;
+}
+
+.review__card {
+	max-width: 600px;
+	margin-inline: auto;
+	padding: 2rem;
+}
+
+.review__card img {
+	margin-bottom: 1rem;
+	max-width: 150px;
+	margin-inline: auto;
+	border-radius: 100%;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.review__card h4 {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.review__card h5 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--yellow);
+}
+
+.review__card p {
+  line-height: 1.75rem;
+}
+
 
 
 
@@ -366,10 +417,9 @@ video {
 	 .lessons__img::after {
     top: 8rem;
     max-width: 600px;
-    height: 100vw;
     background-position: left center;
-    transform-origin: top;
     border-top-left-radius: 23rem;
+    border-bottom-left-radius: 23rem;
   }
 
   .lessons__content {
