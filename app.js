@@ -44,6 +44,18 @@ ScrollReveal().reveal(".header__content .header__btn", {
 ScrollReveal().reveal(".key-points__card", {
 	...scrollRevealOption,
 	delay: 500,
+	
 });
 
+ScrollReveal().reveal(".lessons__content .section__header", {
+	...scrollRevealOption,
+});
+ScrollReveal().reveal(".lessons__content .section__description", {
+	...scrollRevealOption,
+	delay: 500,
+});
+ScrollReveal().reveal(".lessons__btn", {
+	...scrollRevealOption,
+	delay: 1000,
+});
 //.................

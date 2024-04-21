@@ -234,6 +234,7 @@ video {
     transform: translate(-50%, -50%);
     /*border-bottom-right-radius: 23rem;*/
 		border-top-left-radius: 23rem;
+		
 }
 
 .key-points__video::after {
@@ -276,6 +277,37 @@ video {
 
 
 
+/*.....lessons styling....*/
+
+.lessons__img {
+	position: relative;
+	isolation: isolate;
+	height: 100%;
+	min-height: 400px;
+}
+
+.lessons__img::after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(./assets/dancingchildren.jpg);
+	filter: brightness(1.3);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.lessons__content {
+	padding-block: 5rem;
+	padding-inline: 1rem;
+	text-align: center;
+}
+
+
+
 
 
 
@@ -310,14 +342,14 @@ video {
   .key-points__video {
   	position: relative;
   	isolation: isolate;
-  	grid-column: 1/3;
+  	grid-column: 2/3;
   	
   }
 
   .key-points__video video {
   	border-top-right-radius: 23rem;
 		border-top-left-radius: 0rem;
-		border-bottom-left-radius: 23rem;
+		/*border-bottom-left-radius: 23rem;*/
   }
 
   .key-points__content {
@@ -325,7 +357,26 @@ video {
 	padding-inline: 1rem;
 }
 
+	.lessons__img {
+		position: relative;
+		isolation: isolate;
+		grid-area: 1/3/2/5;
+	}
 
+	 .lessons__img::after {
+    top: 8rem;
+    max-width: 600px;
+    height: 100vw;
+    background-position: left center;
+    transform-origin: top;
+    border-top-left-radius: 23rem;
+  }
 
+  .lessons__content {
+    padding-inline: 0 2rem;
+    padding-block: 8rem;
+    text-align: left;
+    grid-column: 2/3;
+  }
 
 }
