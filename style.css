@@ -111,7 +111,7 @@ nav {
 	z-index: 100;
 }
 
-.navbar__logo {
+.navbar__logo, .logo {
   font-size: 1.4rem;
   letter-spacing: 0.5rem;
   font-weight: 300;
@@ -358,7 +358,56 @@ video {
   line-height: 1.75rem;
 }
 
+/*.....Footer styling....*/
 
+.footer {
+  background-color: var(--black);
+}
+
+.footer .logo{
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+
+.footer__content {
+  max-width: 1100px;
+  margin-inline: auto;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.footer__content a img {
+  margin-bottom: 2rem;
+  margin-inline: auto;
+  max-width: 60px;
+}
+
+.footer__socials {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer__socials a {
+  padding: 5px 9px;
+  font-size: 1.5rem;
+  color: var(--white);
+  background-color: var(--primary-colour);
+  border-radius: 100%;
+}
+
+.footer__socials a:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.footer__content p {
+  color: var(--white);
+  font-size: 0.9rem;
+}
 
 
 
@@ -427,6 +476,10 @@ video {
     padding-block: 8rem;
     text-align: left;
     grid-column: 2/3;
+  }
+
+  .review__wrapper {
+  	padding-block: 10rem 5rem; 
   }
 
 }
