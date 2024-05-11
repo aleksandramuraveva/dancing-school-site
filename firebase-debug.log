@@ -1,0 +1,73 @@
+[debug] [2024-05-11T14:20:04.986Z] ----------------------------------------------------------------------
+[debug] [2024-05-11T14:20:04.990Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\фвьшт\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-05-11T14:20:04.990Z] CLI Version:   13.8.0
+[debug] [2024-05-11T14:20:04.990Z] Platform:      win32
+[debug] [2024-05-11T14:20:04.991Z] Node Version:  v20.10.0
+[debug] [2024-05-11T14:20:04.991Z] Time:          Sat May 11 2024 17:20:04 GMT+0300 (Москва, стандартное время)
+[debug] [2024-05-11T14:20:04.991Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-11T14:20:04.999Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-11T14:20:05.000Z] > authorizing via signed-in user (aleksmuraveva@yandex.ru)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\фвьшт\Desktop\CODING\GITHUB\dancing-school-site
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-05-11T14:20:30.876Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-05-11T14:20:31.502Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-05-11T14:20:31.503Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-05-11T14:21:01.504Z] ----------------------------------------------------------------------
+[debug] [2024-05-11T14:21:01.508Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\фвьшт\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-05-11T14:21:01.508Z] CLI Version:   13.8.0
+[debug] [2024-05-11T14:21:01.509Z] Platform:      win32
+[debug] [2024-05-11T14:21:01.509Z] Node Version:  v20.10.0
+[debug] [2024-05-11T14:21:01.509Z] Time:          Sat May 11 2024 17:21:01 GMT+0300 (Москва, стандартное время)
+[debug] [2024-05-11T14:21:01.510Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-11T14:21:01.518Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-11T14:21:01.519Z] > authorizing via signed-in user (aleksmuraveva@yandex.ru)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\фвьшт\Desktop\CODING\GITHUB\dancing-school-site
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-05-11T14:21:11.213Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-05-11T14:21:11.828Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-05-11T14:21:11.829Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project dancingschool-lp-am (dancingschool-lp-am) 
+[info] 
+=== Hosting Setup
+[debug] [2024-05-11T14:21:18.125Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/dancingschool-lp-am [none]
+[debug] [2024-05-11T14:21:18.457Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/dancingschool-lp-am 200
+[debug] [2024-05-11T14:21:18.458Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/dancingschool-lp-am {"projectId":"dancingschool-lp-am","projectNumber":"346407245221","displayName":"dancingschool-lp-am","name":"projects/dancingschool-lp-am","resources":{"hostingSite":"dancingschool-lp-am"},"state":"ACTIVE","etag":"1_21ec9f14-c346-4ac6-8d40-380e8d97c213"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
