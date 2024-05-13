@@ -6,6 +6,7 @@ This is a landing page for a Dancing School, built with HTML, CSS, and JavaScrip
 ## Features
 - Grid layout
 - Colour scheme that is visually appealing
+- Responsive design that adapts to different screen sizes
 
 ## Future Work
 - Rebuild the site with Vue.js
